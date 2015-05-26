@@ -1,0 +1,16 @@
+﻿Name: Urbanit Localization Extensions
+AntiForgery: enabled
+Author: Lombiq
+Website: https://github.com/urbanit/Orchard-Localization-Extensions
+Version: 1.0
+OrchardVersion: 1.9
+Description: Extends the functionality of Orchard.Localization. Fixes the container-containable localization synchronization and other further special synchronization-related things for Taxonomies.
+Features:
+	Urbanit.Localization.Extensions:
+		Name: Localization Extensions
+		Description: Extends the functionality of Orchard.Localization. Fixes the container-containable localization synchronization.
+		Dependencies: Orchard.Localization
+	Urbanit.Localization.Extensions.Taxonomies:
+		Name: Localization Extensions - Taxonomies
+		Description: Further special synchronization-related events for Taxonomies.
+		Dependencies: Urbanit.Localization.Extensions, Piedone.HelpfulLibraries.Contents, Orchard.Taxonomies
