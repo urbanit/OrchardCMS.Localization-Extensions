@@ -50,10 +50,10 @@ This [Orchard](http://orchardproject.net/) module extends the functionality of O
 The module doesn't let you to add content with different culture to the container. E.g. if you try to add a Greek BlogPost to an english Blog, you can't do that, the BlogPost's culture will be automatically set to English.
 
 
-## Localized content items with TaxonomyPickerField step-by-step
+## Localized content items with Taxonomy Field step-by-step
 
 1. Create some localized Taxonomies, see "Example 2 - Taxonomies".
 2. Attach LocalizationPart to the content item.
 3. Attach as many Taxonomy Fields for all the cultures you have Taxonomies for.
-4. Select 1-1 Taxonomies for the attached TaxonomyPickerFields. E.g. attach 2 Taxonomy Fields, "English Category" and "Greek Category". Select "Categories EN" taxonomy for the "English Category" field and select "Categories GR" taxonomy for the "Greek Category" field.
+4. Select 1-1 Taxonomies for the attached Taxonomy Fields. E.g. attach 2 Taxonomy Fields, "English Category" and "Greek Category". Select "Categories EN" taxonomy for the "English Category" field and select "Categories GR" taxonomy for the "Greek Category" field.
 5. Next time when you create a new content item you'll get a culture-first editor and after saving you can select only from those Taxonomy Fields where the cultures match.
