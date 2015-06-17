@@ -54,6 +54,6 @@ The module doesn't let you to add content with different culture to the containe
 
 1. Create some localized Taxonomies, see "Example 2 - Taxonomies".
 2. Attach LocalizationPart to the content item.
-3. Attach as many TaxonomyPickerFields for all the cultures you have Taxonomies for.
-4. Select 1-1 Taxonomies for the attached TaxonomyPickerFields. E.g. attach 2 TaxonomyPickerFields, "English Category" and "Greek Category". Select "Categories EN" taxonomy for the "English Category" field and select "Categories GR" taxonomy for the "Greek Category" field.
-5. Next time when you create a new content item you'll get a culture-first editor and after saving you can select only from those TaxonomyPickerFields where the cultures match.
+3. Attach as many Taxonomy Fields for all the cultures you have Taxonomies for.
+4. Select 1-1 Taxonomies for the attached TaxonomyPickerFields. E.g. attach 2 Taxonomy Fields, "English Category" and "Greek Category". Select "Categories EN" taxonomy for the "English Category" field and select "Categories GR" taxonomy for the "Greek Category" field.
+5. Next time when you create a new content item you'll get a culture-first editor and after saving you can select only from those Taxonomy Fields where the cultures match.
